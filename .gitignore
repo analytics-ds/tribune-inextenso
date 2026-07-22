@@ -1,0 +1,13 @@
+public/
+resources/
+.hugo_build.lock
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+node_modules/
+
+# doc interne datashake (ne pas exposer)
+ETAT-AVANCEMENT.md

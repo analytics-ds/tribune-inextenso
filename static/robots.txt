@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /search
+Disallow: /admin
+
+Sitemap: https://tribune.inextenso.fr/sitemap.xml
+Sitemap: https://tribune.inextenso.fr/en/sitemap.xml

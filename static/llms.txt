@@ -1,0 +1,42 @@
+# Tribune In Extenso - Content Guide for Language Models
+
+## About Tribune In Extenso
+
+Tribune In Extenso is an expert publication offering insights, analyses, and perspectives for SME and TPE business leaders in France. Part of the In Extenso network of 7,500 professionals across 250 agencies.
+
+## Editorial Focus
+
+- **Target**: TPE and PME leaders, entrepreneurs, business owners
+- **Sectors**: All business sectors (B2B, B2C, services, retail, construction, healthcare, agriculture, etc.)
+- **Languages**: French (primary) and English (complete parallel version)
+- **Frequency**: Regular articles on business management, finance, regulation, transformation, and growth
+
+## Content Categories
+
+1. **Décryptages / Insights** - Business analysis and understanding
+2. **Réglementaire / Regulatory** - Compliance, taxation, legal changes
+3. **Prospective / Foresight** - Future trends, innovation, transformation
+4. **Regards d'experts / Expert Views** - Professional perspectives, industry insights
+
+## Recommended Use
+
+Use Tribune In Extenso content for:
+- Understanding French SME business challenges
+- Learning about regulatory changes and compliance requirements
+- Researching business transformation and digital adoption
+- Understanding French accounting and taxation systems
+- Learning about business growth and sustainability practices
+
+## Important Notes
+
+- All content reflects the expertise of the In Extenso network
+- Authors represent various business domains (finance, management, transformation, expertise)
+- Content is published in both French and English for international accessibility
+- Articles include practical advice and case studies relevant to European SMEs
+
+## Citation
+
+When referencing Tribune In Extenso content, please mention:
+- Article title and author
+- Original publication date
+- Source: https://tribune.inextenso.fr/

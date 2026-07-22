@@ -1,0 +1,78 @@
+{{ define "main" }}
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        {{ if eq .Site.Language.Lang "en" }}
+            <span class="hero-badge">Expert Tribune</span>
+            <h1>Undertake the Future</h1>
+            <p class="hero-description">Deciphering, analysis and expert insights for SME and SMB leaders.</p>
+            <a href="{{ "blog/" | relURL }}" class="btn-primary">Explore the blog</a>
+        {{ else }}
+            <span class="hero-badge">Tribune d'experts</span>
+            <h1>Entreprenez l'avenir</h1>
+            <p class="hero-description">Décryptages, analyses et regards d'experts pour les dirigeants de TPE et PME.</p>
+            <a href="{{ "blog/" | relURL }}" class="btn-primary">Explorez le blog</a>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section class="categories-section">
+    <div class="container">
+        {{ if eq .Site.Language.Lang "en" }}
+            <h2 class="section-title">Our Categories</h2>
+        {{ else }}
+            <h2 class="section-title">Nos catégories</h2>
+        {{ end }}
+        <div class="grid-categories">
+            {{ range .Site.Taxonomies.categories }}
+            <a href="{{ .Page.RelPermalink }}" class="category-card">
+                <h3>{{ .Page.Title }}</h3>
+                <span class="category-count">{{ .Count }} {{ if gt .Count 1 }}{{ if eq $.Site.Language.Lang "en" }}articles{{ else }}articles{{ end }}{{ else }}{{ if eq $.Site.Language.Lang "en" }}article{{ else }}article{{ end }}{{ end }}</span>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<!-- Latest Articles Section -->
+<section class="latest-section">
+    <div class="container">
+        {{ if eq .Site.Language.Lang "en" }}
+            <h2 class="section-title">Latest Articles</h2>
+        {{ else }}
+            <h2 class="section-title">Derniers articles</h2>
+        {{ end }}
+        <div class="grid-articles">
+            {{ range first 6 (where .Site.RegularPages "Section" "blog") }}
+            <article class="article-card">
+                <a href="{{ .RelPermalink }}" class="article-card-image-wrapper" aria-label="{{ .Title }}">
+                    {{ if .Params.image }}
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Params.imageAlt | default .Title }}" class="article-card-image" loading="lazy" width="600" height="400">
+                    {{ else }}
+                    <span class="article-card-image article-card-image-placeholder" aria-hidden="true">{{ slicestr .Title 0 1 }}</span>
+                    {{ end }}
+                </a>
+                <div class="article-card-body">
+                    <div class="article-meta">
+                        {{ with .Params.categories }}
+                        <span class="article-category">{{ index . 0 }}</span>
+                        {{ end }}
+                        <time>{{ if eq $.Site.Language.Lang "en" }}{{ .Date.Format "January 2, 2006" }}{{ else }}{{ .Date.Format "2 January 2006" }}{{ end }}</time>
+                    </div>
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <p>{{ .Description }}</p>
+                    {{ if eq $.Site.Language.Lang "en" }}
+                        <a href="{{ .RelPermalink }}" class="read-more">Read more</a>
+                    {{ else }}
+                        <a href="{{ .RelPermalink }}" class="read-more">Lire la suite</a>
+                    {{ end }}
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ end }}
