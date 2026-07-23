@@ -83,23 +83,24 @@
 <!-- Favicon -->
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
 
-<!-- JSON-LD Schema.org : Organization (toutes les pages, avec @id) -->
+<!-- JSON-LD Schema.org : Organization (In Extenso, editeur de la Tribune) -->
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": "{{ .Site.BaseURL }}#organization",
-    "name": "{{ .Site.Title }}",
-    "url": "{{ .Site.BaseURL }}",
-    "description": "{{ .Site.Params.description }}"{{ with .Site.Params.logo }},
+    "name": "{{ .Site.Params.organization_name | default .Site.Title }}",
+    "url": "{{ .Site.Params.organization_url | default .Site.BaseURL }}"{{ with (.Site.Params.organization_logo | default .Site.Params.logo) }},
     "logo": "{{ . | absURL }}"{{ end }}{{ with .Site.Params.founding_year }},
-    "foundingDate": "{{ . }}"{{ end }}{{ with .Site.Params.expertise }},
-    "knowsAbout": [{{ range $i, $e := . }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}]{{ end }}
+    "foundingDate": "{{ . }}"{{ end }},
+    "description": "{{ .Site.Params.description }}"{{ with .Site.Params.expertise }},
+    "knowsAbout": [{{ range $i, $e := . }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}]{{ end }}{{ with .Site.Params.organization_sameas }},
+    "sameAs": [{{ range $i, $s := . }}{{ if $i }}, {{ end }}"{{ $s }}"{{ end }}]{{ end }}
 }
 </script>
 
-<!-- JSON-LD Schema.org : BlogPosting (articles) -->
-{{ if .IsPage }}
+<!-- JSON-LD Schema.org : BlogPosting (articles de blog uniquement) -->
+{{ if and .IsPage (eq .Section "blog") }}
 {{ $lang := .Site.Language.Lang }}
 {{ $author := dict }}
 {{ with .Params.author }}
@@ -108,11 +109,14 @@
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
+    "@id": "{{ .Permalink }}#article",
+    "url": "{{ .Permalink }}",
     "headline": "{{ .Title }}",
     "description": "{{ .Description }}",
-    "datePublished": "{{ .Date.Format "2006-01-02" }}",
-    "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+    "inLanguage": "{{ .Site.LanguageCode | default "fr-FR" }}",
+    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
     "wordCount": {{ .WordCount }},
     "timeRequired": "PT{{ .ReadingTime }}M",{{ with .Params.image }}
     "image": "{{ . | absURL }}",{{ end }}
@@ -129,8 +133,6 @@
     },
     {{ end }}
     "publisher": {
-        "@type": "Organization",
-        "name": "{{ .Site.Title }}",
         "@id": "{{ .Site.BaseURL }}#organization"
     },
     "mainEntityOfPage": {
@@ -208,6 +210,7 @@
 {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "{{ .Site.BaseURL }}#website",
     "name": "{{ .Site.Title }}",
     "description": "{{ .Site.Params.description }}",
     "url": "{{ .Site.BaseURL }}",

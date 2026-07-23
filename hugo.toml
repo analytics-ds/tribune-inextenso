@@ -13,7 +13,7 @@ defaultContentLanguageInSubdir = false
     weight = 1
     title = "Tribune In Extenso"
     [languages.fr.params]
-      description = "Décryptages, analyses et regards d'experts pour les dirigeants de TPE et PME. Entreprenez l'avenir."
+      description = "Le média d'In Extenso pour les dirigeants d'entreprise. Analyses, décryptages et regards d'experts sur la stratégie, la gestion, la finance, la fiscalité, le juridique et le développement. Entreprenez l'avenir."
 
   [languages.en]
     languageCode = "en-US"
@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
     weight = 2
     title = "Tribune In Extenso"
     [languages.en.params]
-      description = "Deciphering, analysis and expert insights for SME and SMB leaders. Undertake the future."
+      description = "In Extenso's media for business leaders. Analysis, insights and expert views on strategy, management, finance, tax, legal and growth. Undertake the future."
 
 [taxonomies]
   category = "categories"
@@ -113,7 +113,13 @@ defaultContentLanguageInSubdir = false
   default_og_image = "/images/og-default.svg"
   logo = "/favicon.svg"
   founding_year = 1991
-  expertise = ["Expertise-comptable", "Conseil PME", "Gestion d'entreprise"]
+  expertise = ["Conseil aux entreprises", "Stratégie d'entreprise", "Gestion et pilotage", "Finance d'entreprise", "Fiscalité", "Droit des affaires", "Développement et transmission"]
+
+  # Editeur (Organization JSON-LD) : In Extenso, la marque derriere la Tribune
+  organization_name = "In Extenso"
+  organization_url = "https://www.inextenso.fr/"
+  organization_logo = "/images/logo-inextenso.png"
+  organization_sameas = ["https://www.inextenso.fr/"]
 
 [related]
   includeNewer = true

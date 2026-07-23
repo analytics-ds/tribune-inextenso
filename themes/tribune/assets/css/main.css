@@ -66,6 +66,8 @@
 
 html {
     scroll-behavior: smooth;
+    /* Offset des ancres pour ne pas passer sous le header sticky (~75px) */
+    scroll-padding-top: 90px;
 }
 
 body {
@@ -950,6 +952,13 @@ img {
     color: var(--primary);
 }
 
+/* Ancrage : les titres cibles restent sous le header sticky */
+.article-content h2,
+.article-content h3,
+.article-content h4 {
+    scroll-margin-top: 90px;
+}
+
 /* Article body typography (prose) */
 .article-content h2 {
     font-family: var(--font-heading);
@@ -1583,4 +1592,103 @@ img {
         animation-duration: 0.01ms !important;
         transition-duration: 0.01ms !important;
     }
+}
+
+/* ============================================================
+   MODE JOUR / NUIT
+   Le theme est pilote par l'attribut data-theme sur <html>
+   (pose par un script inline avant le paint, cf baseof.html).
+   Le template surcharge --primary et --white comme fond clair
+   ET comme couleur de texte, donc en sombre on remappe les
+   variables ET on corrige les surfaces concernees.
+   ============================================================ */
+
+/* Transition douce entre les deux modes */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Logo : fond blanc efface en clair (multiply), inverse en blanc en sombre */
+.logo-img {
+    height: 30px;
+    width: auto;
+    display: block;
+    mix-blend-mode: multiply;
+}
+[data-theme="dark"] .logo-img {
+    mix-blend-mode: screen;
+    filter: invert(1);
+}
+
+/* Bouton de bascule */
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-light);
+    padding: var(--space-xs);
+    margin-left: var(--space-sm);
+    display: inline-flex;
+    align-items: center;
+    border-radius: var(--radius-sm);
+    transition: color var(--transition-fast), background-color var(--transition-fast);
+}
+.theme-toggle:hover {
+    color: var(--primary);
+    background-color: var(--background-alt);
+}
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle .icon-moon { display: block; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
+/* --- Palette sombre --- */
+[data-theme="dark"] {
+    --background: #0E1013;
+    --background-alt: #191C20;
+    --text: #ECEEF0;
+    --text-light: #A6ADB5;
+    --border: #2A2F36;
+    --primary: #FFFFFF;
+    --primary-light: #C9D1DA;
+    --primary-dark: #FFFFFF;
+    --gray-50: #191C20;
+    --gray-100: #20242A;
+    --gray-200: #2A2F36;
+    --gray-300: #3A4048;
+    --gray-400: #8A929B;
+    --gray-500: #A6ADB5;
+    /* --accent, --cta, --cta-hover, --white inchanges (orange de marque + blanc pur pour texte sur surfaces sombres) */
+}
+
+/* --- Surfaces qui utilisaient un fond clair code en dur ou via --primary/--white --- */
+[data-theme="dark"] .site-header {
+    background-color: rgba(14, 16, 19, 0.92);
+    border-bottom-color: var(--border);
+}
+[data-theme="dark"] .article-card,
+[data-theme="dark"] .article-card-horizontal,
+[data-theme="dark"] .nav-mobile,
+[data-theme="dark"] .article-content details {
+    background-color: var(--background-alt);
+}
+/* Sections "sombres" de marque : restent noires (elles utilisaient --primary = noir en clair) */
+[data-theme="dark"] .hero,
+[data-theme="dark"] .list-header,
+[data-theme="dark"] .sitemap-page .list-header,
+[data-theme="dark"] .site-footer {
+    background-color: #000000;
+}
+[data-theme="dark"] .category-card {
+    background-color: var(--background-alt);
+    border: 1px solid var(--border);
+}
+/* Placeholders (initiale) qui utilisaient --primary blanc en fond */
+[data-theme="dark"] .article-card-image-placeholder {
+    background: linear-gradient(135deg, #2A2F36, #101010);
+    color: var(--text);
+}
+[data-theme="dark"] .author-avatar-placeholder {
+    background: var(--accent);
+    color: #101010;
 }
