@@ -5,7 +5,7 @@ lastmod: 2026-07-11
 description: "In Extenso : le réseau français d'experts-comptables et de conseillers pour accompagner les dirigeants de TPE et PME."
 categories: ["Regards d'experts"]
 tags: ["In Extenso", "expertise-comptable", "réseau", "accompagnement"]
-image: "/images/blog/in-extenso-reseau.webp"
+image: "images/blog/in-extenso-reseau.webp"
 imageAlt: "Réseau In Extenso de 7500 collaborateurs"
 imageCredit: "Pexels"
 author: "camille-fabre"

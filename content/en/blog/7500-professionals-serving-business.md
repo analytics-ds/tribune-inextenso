@@ -5,7 +5,7 @@ lastmod: 2026-07-11
 description: "In Extenso: France's largest network of accountants and advisors for SME leaders."
 categories: ["Expert Views"]
 tags: ["In Extenso", "accounting", "network", "support"]
-image: "/images/blog/in-extenso-reseau.webp"
+image: "images/blog/in-extenso-reseau.webp"
 imageAlt: "In Extenso network of 7,500 professionals"
 imageCredit: "Pexels"
 author: "camille-fabre"

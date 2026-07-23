@@ -5,7 +5,7 @@ lastmod: 2026-07-13
 description: "Croissance rapide = risques. Comment piloter la croissance sans sacrifier la rentabilité et la stabilité ?"
 categories: ["Regards d'experts"]
 tags: ["croissance", "pérennité", "pilotage", "risques"]
-image: "/images/blog/perenniser-croissance.webp"
+image: "images/blog/perenniser-croissance.webp"
 imageAlt: "Pérennité et croissance d'entreprise"
 imageCredit: "Pexels"
 author: "julien-mercier"

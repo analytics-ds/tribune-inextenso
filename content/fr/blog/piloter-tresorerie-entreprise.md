@@ -5,7 +5,7 @@ lastmod: 2026-07-15
 description: "Maîtriser la trésorerie est crucial pour la pérennité de l'entreprise. Découvrez les fondamentaux et les bonnes pratiques."
 categories: ["Décryptages"]
 tags: ["trésorerie", "gestion financière", "SME"]
-image: "/images/blog/piloter-tresorerie-entreprise.webp"
+image: "images/blog/piloter-tresorerie-entreprise.webp"
 imageAlt: "Gestion de la trésorerie d'entreprise"
 imageCredit: "Pexels"
 author: "camille-fabre"

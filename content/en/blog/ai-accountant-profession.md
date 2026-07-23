@@ -5,7 +5,7 @@ lastmod: 2026-07-14
 description: "Artificial intelligence is transforming accounting. What are the opportunities and new professions?"
 categories: ["Foresight"]
 tags: ["AI", "automation", "accounting", "transformation"]
-image: "/images/blog/ia-expert-comptable.webp"
+image: "images/blog/ia-expert-comptable.webp"
 imageAlt: "AI and accounting profession"
 imageCredit: "Pexels"
 author: "camille-fabre"

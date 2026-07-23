@@ -5,7 +5,7 @@ lastmod: 2026-07-12
 description: "Taux, régimes, e-TVA simplifiée : les règles pour bien déclarer sa TVA sans erreur."
 categories: ["Réglementaire"]
 tags: ["TVA", "déclaration", "fiscalité", "conformité"]
-image: "/images/blog/declaration-tva.webp"
+image: "images/blog/declaration-tva.webp"
 imageAlt: "Déclaration TVA"
 imageCredit: "Pexels"
 author: "camille-fabre"

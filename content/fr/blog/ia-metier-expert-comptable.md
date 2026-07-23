@@ -5,7 +5,7 @@ lastmod: 2026-07-14
 description: "L'intelligence artificielle transforme l'expertise-comptable. Quelles sont les opportunités et les nouveaux métiers ?"
 categories: ["Prospective"]
 tags: ["IA", "automatisation", "expert-comptable", "transformation"]
-image: "/images/blog/ia-expert-comptable.webp"
+image: "images/blog/ia-expert-comptable.webp"
 imageAlt: "IA et métier de l'expert-comptable"
 imageCredit: "Pexels"
 author: "camille-fabre"

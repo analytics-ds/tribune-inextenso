@@ -5,7 +5,7 @@ lastmod: 2026-07-10
 description: "Depuis 2024, la facturation électronique est obligatoire pour les PME. Comprendre les obligations et les solutions."
 categories: ["Réglementaire"]
 tags: ["facturation électronique", "conformité", "TVA", "Chorus"]
-image: "/images/blog/facture-electronique.webp"
+image: "images/blog/facture-electronique.webp"
 imageAlt: "Facture électronique et obligations"
 imageCredit: "Pexels"
 author: "julien-mercier"

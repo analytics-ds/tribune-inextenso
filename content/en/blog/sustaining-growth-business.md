@@ -5,7 +5,7 @@ lastmod: 2026-07-13
 description: "Rapid growth means risks. How to manage growth without sacrificing profitability and stability?"
 categories: ["Expert Views"]
 tags: ["growth", "sustainability", "management", "risks"]
-image: "/images/blog/perenniser-croissance.webp"
+image: "images/blog/perenniser-croissance.webp"
 imageAlt: "Business sustainability and growth"
 imageCredit: "Pexels"
 author: "julien-mercier"

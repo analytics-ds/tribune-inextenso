@@ -5,7 +5,7 @@ lastmod: 2026-07-09
 description: "Numériser son entreprise fait peur. Voici une feuille de route pragmatique pour commencer sans se tromper."
 categories: ["Prospective"]
 tags: ["transformation digitale", "outils", "processus", "changement"]
-image: "/images/blog/transition-digitale.webp"
+image: "images/blog/transition-digitale.webp"
 imageAlt: "Transformation digitale d'entreprise"
 imageCredit: "Pexels"
 author: "julien-mercier"

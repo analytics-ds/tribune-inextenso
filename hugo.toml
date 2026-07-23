@@ -110,15 +110,15 @@ defaultContentLanguageInSubdir = false
   font_ui = "Oswald"
 
   # Métadonnées
-  default_og_image = "/images/og-default.svg"
-  logo = "/favicon.svg"
+  default_og_image = "images/og-default.svg"
+  logo = "favicon.svg"
   founding_year = 1991
   expertise = ["Conseil aux entreprises", "Stratégie d'entreprise", "Gestion et pilotage", "Finance d'entreprise", "Fiscalité", "Droit des affaires", "Développement et transmission"]
 
   # Editeur (Organization JSON-LD) : In Extenso, la marque derriere la Tribune
   organization_name = "In Extenso"
   organization_url = "https://www.inextenso.fr/"
-  organization_logo = "/images/logo-inextenso.png"
+  organization_logo = "images/logo-inextenso.png"
   organization_sameas = ["https://www.inextenso.fr/"]
 
 [related]

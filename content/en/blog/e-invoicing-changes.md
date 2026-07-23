@@ -5,7 +5,7 @@ lastmod: 2026-07-10
 description: "Since 2024, electronic invoicing is mandatory for SMEs. Understand obligations and solutions."
 categories: ["Regulatory"]
 tags: ["e-invoicing", "compliance", "VAT", "Chorus"]
-image: "/images/blog/facture-electronique.webp"
+image: "images/blog/facture-electronique.webp"
 imageAlt: "E-invoicing and obligations"
 imageCredit: "Pexels"
 author: "julien-mercier"

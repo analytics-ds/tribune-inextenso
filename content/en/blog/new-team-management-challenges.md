@@ -5,7 +5,7 @@ lastmod: 2026-07-08
 description: "Remote work, Gen Z, talent retention: team management challenges have changed. How to adapt?"
 categories: ["Insights"]
 tags: ["team management", "leadership", "HR"]
-image: "/images/blog/defis-gestion-equipe.webp"
+image: "images/blog/defis-gestion-equipe.webp"
 imageAlt: "Modern team management"
 imageCredit: "Pexels"
 author: "camille-fabre"

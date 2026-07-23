@@ -5,7 +5,7 @@ lastmod: 2026-07-08
 description: "Télétravail, génération Z, rétention des talents : les défis de la gestion d'équipe ont changé. Comment s'adapter ?"
 categories: ["Décryptages"]
 tags: ["gestion d'équipe", "management", "RH"]
-image: "/images/blog/defis-gestion-equipe.webp"
+image: "images/blog/defis-gestion-equipe.webp"
 imageAlt: "Gestion moderne d'une équipe"
 imageCredit: "Pexels"
 author: "camille-fabre"

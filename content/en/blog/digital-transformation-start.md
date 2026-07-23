@@ -5,7 +5,7 @@ lastmod: 2026-07-09
 description: "Going digital seems daunting. Here's a pragmatic roadmap to start without mistakes."
 categories: ["Foresight"]
 tags: ["digital transformation", "tools", "processes", "change"]
-image: "/images/blog/transition-digitale.webp"
+image: "images/blog/transition-digitale.webp"
 imageAlt: "Business digital transformation"
 imageCredit: "Pexels"
 author: "julien-mercier"

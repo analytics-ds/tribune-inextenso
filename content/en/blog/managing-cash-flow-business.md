@@ -5,7 +5,7 @@ lastmod: 2026-07-15
 description: "Mastering cash flow is crucial for company survival. Discover the fundamentals and best practices."
 categories: ["Insights"]
 tags: ["cash flow", "financial management", "SME"]
-image: "/images/blog/piloter-tresorerie-entreprise.webp"
+image: "images/blog/piloter-tresorerie-entreprise.webp"
 imageAlt: "Business cash flow management"
 imageCredit: "Pexels"
 author: "camille-fabre"

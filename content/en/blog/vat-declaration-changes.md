@@ -5,7 +5,7 @@ lastmod: 2026-07-12
 description: "Tax rates, regimes, simplified e-VAT: rules for filing VAT correctly without errors."
 categories: ["Regulatory"]
 tags: ["VAT", "declaration", "taxation", "compliance"]
-image: "/images/blog/declaration-tva.webp"
+image: "images/blog/declaration-tva.webp"
 imageAlt: "VAT Declaration"
 imageCredit: "Pexels"
 author: "camille-fabre"
