@@ -8,7 +8,7 @@ tags: ["transformation digitale", "outils", "processus", "changement"]
 image: "/images/blog/transition-digitale.webp"
 imageAlt: "Transformation digitale d'entreprise"
 imageCredit: "Unsplash"
-author: "sophie-martin"
+author: "julien-mercier"
 draft: false
 translationKey: "article-transition-digitale"
 faq:

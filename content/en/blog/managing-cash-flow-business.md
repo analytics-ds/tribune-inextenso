@@ -8,7 +8,7 @@ tags: ["cash flow", "financial management", "SME"]
 image: "/images/blog/piloter-tresorerie-entreprise.webp"
 imageAlt: "Business cash flow management"
 imageCredit: "Unsplash"
-author: "sophie-martin"
+author: "camille-fabre"
 draft: false
 translationKey: "article-piloter-tresorerie"
 faq:

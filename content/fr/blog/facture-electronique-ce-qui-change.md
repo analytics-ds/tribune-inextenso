@@ -8,7 +8,7 @@ tags: ["facturation électronique", "conformité", "TVA", "Chorus"]
 image: "/images/blog/facture-electronique.webp"
 imageAlt: "Facture électronique et obligations"
 imageCredit: "Unsplash"
-author: "sophie-martin"
+author: "julien-mercier"
 draft: false
 translationKey: "article-facture-electronique"
 faq:

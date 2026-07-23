@@ -8,7 +8,7 @@ tags: ["croissance", "pérennité", "pilotage", "risques"]
 image: "/images/blog/perenniser-croissance.webp"
 imageAlt: "Pérennité et croissance d'entreprise"
 imageCredit: "Unsplash"
-author: "sophie-martin"
+author: "julien-mercier"
 draft: false
 translationKey: "article-perenniser-croissance"
 faq:

@@ -8,7 +8,7 @@ tags: ["e-invoicing", "compliance", "VAT", "Chorus"]
 image: "/images/blog/facture-electronique.webp"
 imageAlt: "E-invoicing and obligations"
 imageCredit: "Unsplash"
-author: "sophie-martin"
+author: "julien-mercier"
 draft: false
 translationKey: "article-facture-electronique"
 faq:

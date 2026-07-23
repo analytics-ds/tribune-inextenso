@@ -8,7 +8,7 @@ tags: ["trésorerie", "gestion financière", "SME"]
 image: "/images/blog/piloter-tresorerie-entreprise.webp"
 imageAlt: "Gestion de la trésorerie d'entreprise"
 imageCredit: "Unsplash"
-author: "sophie-martin"
+author: "camille-fabre"
 draft: false
 translationKey: "article-piloter-tresorerie"
 faq:

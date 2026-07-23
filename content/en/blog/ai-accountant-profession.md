@@ -8,7 +8,7 @@ tags: ["AI", "automation", "accounting", "transformation"]
 image: "/images/blog/ia-expert-comptable.webp"
 imageAlt: "AI and accounting profession"
 imageCredit: "Unsplash"
-author: "sophie-martin"
+author: "camille-fabre"
 draft: false
 translationKey: "article-ia-expert-comptable"
 faq:

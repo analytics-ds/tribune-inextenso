@@ -8,7 +8,7 @@ tags: ["In Extenso", "expertise-comptable", "réseau", "accompagnement"]
 image: "/images/blog/in-extenso-reseau.webp"
 imageAlt: "Réseau In Extenso de 7500 collaborateurs"
 imageCredit: "In Extenso"
-author: "sophie-martin"
+author: "camille-fabre"
 draft: false
 translationKey: "article-in-extenso-collaborateurs"
 faq:

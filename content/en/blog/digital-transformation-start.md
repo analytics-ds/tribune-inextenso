@@ -8,7 +8,7 @@ tags: ["digital transformation", "tools", "processes", "change"]
 image: "/images/blog/transition-digitale.webp"
 imageAlt: "Business digital transformation"
 imageCredit: "Unsplash"
-author: "sophie-martin"
+author: "julien-mercier"
 draft: false
 translationKey: "article-transition-digitale"
 faq:

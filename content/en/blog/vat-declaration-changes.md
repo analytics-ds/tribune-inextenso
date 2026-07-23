@@ -8,7 +8,7 @@ tags: ["VAT", "declaration", "taxation", "compliance"]
 image: "/images/blog/declaration-tva.webp"
 imageAlt: "VAT Declaration"
 imageCredit: "Unsplash"
-author: "sophie-martin"
+author: "camille-fabre"
 draft: false
 translationKey: "article-declaration-tva"
 faq:

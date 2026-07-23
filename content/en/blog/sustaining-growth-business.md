@@ -8,7 +8,7 @@ tags: ["growth", "sustainability", "management", "risks"]
 image: "/images/blog/perenniser-croissance.webp"
 imageAlt: "Business sustainability and growth"
 imageCredit: "Unsplash"
-author: "sophie-martin"
+author: "julien-mercier"
 draft: false
 translationKey: "article-perenniser-croissance"
 faq:

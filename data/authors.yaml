@@ -1,237 +1,73 @@
-# Auteurs du blog — multilingue FR/EN
-# Ce fichier est copie dans `data/authors.yaml` a la racine du site Hugo a la creation du site.
-# Hugo le lit nativement via `.Site.Data.authors` dans les templates.
-#
-# Structure : map d'auteurs indexee par ID (slug)
-# L'ID est utilise dans le frontmatter des articles comme `author: thomas-durand`
-#
-# Le champ `topics` sert a la selection automatique de l'auteur dans /create-article.
-# Le champ `expertise` alimente le schema.org Person -> knowsAbout.
+# Auteurs de la Tribune In Extenso (multilingue FR/EN)
+# Lu nativement par Hugo via `.Site.Data.authors` dans les templates.
+# L'ID (slug) est utilise dans le frontmatter des articles : `author: camille-fabre`.
+# `expertise` alimente le schema.org Person -> knowsAbout. `topics` sert a la selection auto dans /create-article.
+# linkedinUrl : a renseigner quand les profils sociaux reels existent (alimente sameAs du Person schema).
 
-thomas-durand:
-  id: thomas-durand
-  name: Thomas Durand
+camille-fabre:
+  id: camille-fabre
+  name: Camille Fabre
   type: person
-  avatar: /images/authors/thomas-durand.webp
+  avatar: ""
   linkedinUrl: ""
   jobTitle:
-    fr: Redacteur en chef & analyste tech
-    en: Editor-in-Chief & tech analyst
+    fr: Experte-comptable et conseil en gestion
+    en: Chartered accountant and management advisor
   role:
-    fr: Redacteur en chef & analyste tech
-    en: Editor-in-Chief & tech analyst
+    fr: Conseil finance, gestion et fiscalite
+    en: Finance, management and tax advisor
   bio:
-    fr: "Thomas Durand est redacteur en chef. Passionne de technologie, il teste et compare les solutions numeriques pour aider les professionnels et particuliers a faire les bons choix."
-    en: "Thomas Durand is Editor-in-Chief. Passionate about technology, he tests and compares digital solutions to help professionals and individuals make the right choices."
+    fr: "Camille Fabre accompagne les dirigeants de TPE et PME sur la gestion, la tresorerie, la fiscalite et le pilotage de leur activite. Elle s'appuie sur l'expertise de terrain d'In Extenso pour traduire les sujets financiers et comptables en decisions concretes."
+    en: "Camille Fabre supports the leaders of small and medium businesses on management, cash flow, taxation and business steering. She draws on In Extenso's field expertise to turn financial and accounting topics into concrete decisions."
   expertise:
-    - SaaS
-    - Cloud Computing
-    - Cybersecurite
-    - Outils de productivite
-    - Intelligence artificielle
-    - Materiel informatique
-  topics:
-    - tech
-    - technologie
-    - saas
-    - logiciel
-    - cloud
-    - cybersecurite
-    - securite informatique
-    - ia
-    - intelligence artificielle
-    - productivite
-    - outils pro
-    - b2b
-    - informatique
-    - hardware
-
-magalie-ergoz:
-  id: magalie-ergoz
-  name: Magalie Ergoz
-  type: person
-  avatar: /images/authors/magalie-ergoz.webp
-  linkedinUrl: ""
-  jobTitle:
-    fr: Blogueuse mode & beaute
-    en: Fashion & beauty blogger
-  role:
-    fr: Specialiste mode & beaute
-    en: Fashion & beauty specialist
-  bio:
-    fr: "Magalie Ergoz est blogueuse specialisee en mode et beaute. Elle teste et compare les marques pour aider ses lectrices et lecteurs a trouver les meilleurs produits au juste prix."
-    en: "Magalie Ergoz is a fashion and beauty blogger. She tests and compares brands to help her readers find the best products at the right price."
-  expertise:
-    - Mode
-    - Beaute
-    - Cosmetiques
-    - Accessoires
-    - Skincare
-    - Parfums
-  topics:
-    - mode
-    - fashion
-    - beaute
-    - cosmetique
-    - maquillage
-    - skincare
-    - parfum
-    - accessoire
-    - vetement
-    - lifestyle feminin
-    - luxe
-
-claire-beaumont:
-  id: claire-beaumont
-  name: Claire Beaumont
-  type: person
-  avatar: /images/authors/claire-beaumont.webp
-  linkedinUrl: ""
-  jobTitle:
-    fr: Architecte d'interieur & blogueuse deco
-    en: Interior designer & home blogger
-  role:
-    fr: Experte habitat & renovation
-    en: Home & renovation expert
-  bio:
-    fr: "Claire Beaumont est architecte d'interieur de formation et blogueuse depuis plus de 10 ans. Elle teste et compare outils, materiaux et prestataires pour aider particuliers et bricoleurs a reussir leurs projets habitat."
-    en: "Claire Beaumont is a trained interior designer and has been blogging for over 10 years. She tests and compares tools, materials and service providers to help homeowners and DIYers succeed in their home projects."
-  expertise:
-    - Renovation
-    - Decoration interieure
-    - Bricolage
-    - Amenagement exterieur
-    - Materiaux de construction
-    - Mobilier
-  topics:
-    - maison
-    - habitat
-    - renovation
-    - decoration
-    - bricolage
-    - amenagement
-    - jardin
-    - exterieur
-    - mobilier
-    - outillage
-    - construction
-    - materiau
-    - travaux
-    - immobilier residentiel
-
-laura-verdier:
-  id: laura-verdier
-  name: Laura Verdier
-  type: person
-  avatar: /images/authors/laura-verdier.webp
-  linkedinUrl: ""
-  jobTitle:
-    fr: Journaliste sante & bien-etre
-    en: Health & wellness journalist
-  role:
-    fr: Specialiste nutrition & bien-etre
-    en: Nutrition & wellness specialist
-  bio:
-    fr: "Laura Verdier est journaliste specialisee en sante, nutrition et bien-etre depuis 8 ans. Elle decortique les marques, les etudes et les tendances pour offrir a ses lecteurs une information fiable et accessible."
-    en: "Laura Verdier has been a journalist specializing in health, nutrition, and wellness for 8 years. She dissects brands, studies, and trends to provide her readers with reliable and accessible information."
-  expertise:
-    - Nutrition
-    - Bien-etre
-    - Complements alimentaires
-    - Medecine douce
-    - Fitness
-    - Sommeil
-  topics:
-    - sante
-    - bien etre
-    - nutrition
-    - alimentation
-    - complement alimentaire
-    - medecine naturelle
-    - phytotherapie
-    - fitness
-    - sport
-    - sommeil
-    - stress
-    - mental
-    - dietetique
-    - vitalite
-
-kevin-moreau:
-  id: kevin-moreau
-  name: Kevin Moreau
-  type: person
-  avatar: /images/authors/kevin-moreau.webp
-  linkedinUrl: ""
-  jobTitle:
-    fr: Journaliste auto & mobilite
-    en: Auto & mobility journalist
-  role:
-    fr: Specialiste transport & mobilite
-    en: Transport & mobility specialist
-  bio:
-    fr: "Kevin Moreau couvre l'actualite automobile et des nouvelles mobilites depuis 12 ans. Il teste vehicules, solutions de transport et services de voyage pour guider les lecteurs dans leurs choix."
-    en: "Kevin Moreau has covered automotive news and new mobility for 12 years. He tests vehicles, transport solutions and travel services to guide readers in their choices."
-  expertise:
-    - Automobile
-    - Mobilite electrique
-    - Transport urbain
-    - Voyage
-    - Train
-    - Aviation
-  topics:
-    - transport
-    - automobile
-    - voiture
-    - auto
-    - moto
-    - velo
-    - trottinette
-    - mobilite
-    - electrique
-    - vehicule
-    - voyage
-    - train
-    - avion
-    - deplacement
-    - location vehicule
-
-sophie-martin:
-  id: sophie-martin
-  name: Sophie Martin
-  type: person
-  avatar: /images/authors/sophie-martin.webp
-  linkedinUrl: ""
-  jobTitle:
-    fr: Journaliste finance & patrimoine
-    en: Finance & wealth journalist
-  role:
-    fr: Specialiste epargne & investissement
-    en: Savings & investment specialist
-  bio:
-    fr: "Sophie Martin est journaliste financiere independante depuis 10 ans. Elle analyse et compare produits d'epargne, solutions d'investissement et strategies patrimoniales pour democratiser la finance personnelle."
-    en: "Sophie Martin has been an independent financial journalist for 10 years. She analyzes and compares savings products, investment solutions and wealth strategies to democratize personal finance."
-  expertise:
-    - Epargne
-    - Investissement
-    - Immobilier locatif
+    - Comptabilite
     - Fiscalite
-    - Assurance vie
-    - Bourse
+    - Tresorerie
+    - Pilotage d'entreprise
+    - Gestion
+    - Finance d'entreprise
   topics:
     - finance
-    - placement
-    - epargne
-    - investissement
-    - bourse
-    - immobilier locatif
-    - scpi
-    - assurance vie
-    - pel
-    - livret
+    - tresorerie
     - fiscalite
-    - impot
-    - patrimoine
-    - retraite
-    - credit
-    - banque
+    - tva
+    - comptabilite
+    - gestion
+    - pilotage
+    - rentabilite
+    - budget
+    - expert-comptable
+
+julien-mercier:
+  id: julien-mercier
+  name: Julien Mercier
+  type: person
+  avatar: ""
+  linkedinUrl: ""
+  jobTitle:
+    fr: Juriste en droit des affaires
+    en: Business law advisor
+  role:
+    fr: Conseil juridique et developpement
+    en: Legal and development advisor
+  bio:
+    fr: "Julien Mercier conseille les dirigeants sur le droit des affaires, la creation et la transmission d'entreprise, la reglementation et les leviers de developpement. Il rend accessibles les evolutions juridiques et strategiques qui engagent l'avenir de l'entreprise."
+    en: "Julien Mercier advises business leaders on business law, company creation and transfer, regulation and growth levers. He makes accessible the legal and strategic changes that shape a company's future."
+  expertise:
+    - Droit des affaires
+    - Creation d'entreprise
+    - Transmission d'entreprise
+    - Reglementation
+    - Facture electronique
+    - Developpement
+  topics:
+    - juridique
+    - droit des affaires
+    - creation entreprise
+    - transmission
+    - reglementaire
+    - facture electronique
+    - statut juridique
+    - contrat
+    - developpement
+    - strategie
