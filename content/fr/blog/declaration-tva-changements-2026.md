@@ -7,7 +7,7 @@ categories: ["Réglementaire"]
 tags: ["TVA", "déclaration", "fiscalité", "conformité"]
 image: "/images/blog/declaration-tva.webp"
 imageAlt: "Déclaration TVA"
-imageCredit: "Unsplash"
+imageCredit: "Pexels"
 author: "camille-fabre"
 draft: false
 translationKey: "article-declaration-tva"

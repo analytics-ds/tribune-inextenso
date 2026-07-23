@@ -7,7 +7,7 @@ categories: ["Regulatory"]
 tags: ["VAT", "declaration", "taxation", "compliance"]
 image: "/images/blog/declaration-tva.webp"
 imageAlt: "VAT Declaration"
-imageCredit: "Unsplash"
+imageCredit: "Pexels"
 author: "camille-fabre"
 draft: false
 translationKey: "article-declaration-tva"

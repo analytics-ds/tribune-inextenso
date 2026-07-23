@@ -7,7 +7,7 @@ categories: ["Foresight"]
 tags: ["digital transformation", "tools", "processes", "change"]
 image: "/images/blog/transition-digitale.webp"
 imageAlt: "Business digital transformation"
-imageCredit: "Unsplash"
+imageCredit: "Pexels"
 author: "julien-mercier"
 draft: false
 translationKey: "article-transition-digitale"

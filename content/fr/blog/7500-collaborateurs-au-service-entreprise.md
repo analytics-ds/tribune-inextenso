@@ -7,7 +7,7 @@ categories: ["Regards d'experts"]
 tags: ["In Extenso", "expertise-comptable", "réseau", "accompagnement"]
 image: "/images/blog/in-extenso-reseau.webp"
 imageAlt: "Réseau In Extenso de 7500 collaborateurs"
-imageCredit: "In Extenso"
+imageCredit: "Pexels"
 author: "camille-fabre"
 draft: false
 translationKey: "article-in-extenso-collaborateurs"

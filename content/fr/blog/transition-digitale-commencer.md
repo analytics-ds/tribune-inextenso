@@ -7,7 +7,7 @@ categories: ["Prospective"]
 tags: ["transformation digitale", "outils", "processus", "changement"]
 image: "/images/blog/transition-digitale.webp"
 imageAlt: "Transformation digitale d'entreprise"
-imageCredit: "Unsplash"
+imageCredit: "Pexels"
 author: "julien-mercier"
 draft: false
 translationKey: "article-transition-digitale"

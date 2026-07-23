@@ -7,7 +7,7 @@ categories: ["Insights"]
 tags: ["team management", "leadership", "HR"]
 image: "/images/blog/defis-gestion-equipe.webp"
 imageAlt: "Modern team management"
-imageCredit: "Unsplash"
+imageCredit: "Pexels"
 author: "camille-fabre"
 draft: false
 translationKey: "article-defis-gestion-equipe"

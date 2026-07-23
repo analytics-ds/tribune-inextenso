@@ -7,7 +7,7 @@ categories: ["Décryptages"]
 tags: ["gestion d'équipe", "management", "RH"]
 image: "/images/blog/defis-gestion-equipe.webp"
 imageAlt: "Gestion moderne d'une équipe"
-imageCredit: "Unsplash"
+imageCredit: "Pexels"
 author: "camille-fabre"
 draft: false
 translationKey: "article-defis-gestion-equipe"

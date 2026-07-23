@@ -7,7 +7,7 @@ categories: ["Expert Views"]
 tags: ["In Extenso", "accounting", "network", "support"]
 image: "/images/blog/in-extenso-reseau.webp"
 imageAlt: "In Extenso network of 7,500 professionals"
-imageCredit: "In Extenso"
+imageCredit: "Pexels"
 author: "camille-fabre"
 draft: false
 translationKey: "article-in-extenso-collaborateurs"

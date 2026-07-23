@@ -7,7 +7,7 @@ categories: ["Expert Views"]
 tags: ["growth", "sustainability", "management", "risks"]
 image: "/images/blog/perenniser-croissance.webp"
 imageAlt: "Business sustainability and growth"
-imageCredit: "Unsplash"
+imageCredit: "Pexels"
 author: "julien-mercier"
 draft: false
 translationKey: "article-perenniser-croissance"

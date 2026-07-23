@@ -7,7 +7,7 @@ categories: ["Foresight"]
 tags: ["AI", "automation", "accounting", "transformation"]
 image: "/images/blog/ia-expert-comptable.webp"
 imageAlt: "AI and accounting profession"
-imageCredit: "Unsplash"
+imageCredit: "Pexels"
 author: "camille-fabre"
 draft: false
 translationKey: "article-ia-expert-comptable"
