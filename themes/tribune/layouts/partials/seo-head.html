@@ -1,6 +1,9 @@
 <!-- Canonical -->
 <link rel="canonical" href="{{ .Permalink }}">
 
+<!-- Robots : autoriser les grandes images (Google Discover + rich results) et snippets complets -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
 <!-- Hreflang (si multilingual est active dans hugo.toml) -->
 {{ if .IsTranslated }}
 {{ range .Translations }}

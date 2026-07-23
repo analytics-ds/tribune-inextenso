@@ -4,6 +4,9 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  # Rebuild mensuel : rafraichit l'annee dynamique ({{ now.Year }}) et les signaux de fraicheur
+  schedule:
+    - cron: "17 6 1 * *"
 
 permissions:
   contents: read
