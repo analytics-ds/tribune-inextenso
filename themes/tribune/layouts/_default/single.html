@@ -100,10 +100,19 @@
             {{ $headings := .TableOfContents }}
             {{ if $headings }}
             <aside class="article-sidebar">
-                <nav class="toc" aria-label="Sommaire">
+                <div class="reading-progress" aria-hidden="true" title="{{ if eq .Site.Language.Lang "en" }}Reading progress{{ else }}Progression de lecture{{ end }}">
+                    <svg class="rp-ring" viewBox="0 0 72 72" width="72" height="72">
+                        <circle class="rp-track" cx="36" cy="36" r="32"></circle>
+                        <circle class="rp-bar" cx="36" cy="36" r="32"></circle>
+                    </svg>
+                    <span class="rp-center">
+                        <img src="{{ "favicon.svg" | relURL }}" alt="" width="30" height="30">
+                    </span>
+                </div>
+                <nav class="toc" aria-label="{{ if eq .Site.Language.Lang "en" }}Contents{{ else }}Sommaire{{ end }}">
                     <div class="toc-title">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="15" y2="12" /><line x1="3" y1="18" x2="18" y2="18" /></svg>
-                        Sommaire
+                        {{ if eq .Site.Language.Lang "en" }}Contents{{ else }}Sommaire{{ end }}
                     </div>
                     {{ .TableOfContents }}
                 </nav>
@@ -191,7 +200,7 @@
     </div>
 </article>
 
-<!-- Highlight active TOC item on scroll -->
+<!-- Sommaire : item actif au scroll + anneau de progression de lecture -->
 <script>
 (function() {
     var observer = new IntersectionObserver(function(entries) {
@@ -204,6 +213,25 @@
         });
     }, { rootMargin: '-80px 0px -60% 0px', threshold: 0 });
     document.querySelectorAll('.article-content h2, .article-content h3').forEach(function(h) { observer.observe(h); });
+
+    // Anneau de progression de lecture
+    var bar = document.querySelector('.rp-bar');
+    var article = document.querySelector('.article-main');
+    var C = 2 * Math.PI * 32; // rayon 32
+    function updateProgress() {
+        if (!bar || !article) return;
+        var r = article.getBoundingClientRect();
+        var total = r.height - window.innerHeight;
+        var scrolled = -r.top;
+        var p = total > 0 ? scrolled / total : (r.top <= 0 ? 1 : 0);
+        p = Math.max(0, Math.min(1, p));
+        bar.style.strokeDashoffset = C * (1 - p);
+    }
+    if (bar && article) {
+        window.addEventListener('scroll', updateProgress, { passive: true });
+        window.addEventListener('resize', updateProgress);
+        updateProgress();
+    }
 })();
 </script>
 

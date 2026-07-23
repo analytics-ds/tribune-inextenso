@@ -135,7 +135,7 @@ defaultContentLanguageInSubdir = false
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 3
-    ordered = true
+    ordered = false
 
 [outputFormats]
   [outputFormats.sitemap]
