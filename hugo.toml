@@ -4,6 +4,8 @@ theme = "tribune"
 
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
+# Slugs d'URL sans accents (sinon les categories accentuees creent des pages en double)
+removePathAccents = true
 
 [languages]
   [languages.fr]
@@ -51,7 +53,7 @@ defaultContentLanguageInSubdir = false
 
 [[languages.fr.menus.main]]
   name = "Regards d'experts"
-  url = "/categories/regards-d-experts/"
+  url = "/categories/regards-dexperts/"
   weight = 5
 
 [[languages.fr.menus.main]]
